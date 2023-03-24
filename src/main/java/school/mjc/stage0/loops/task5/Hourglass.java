@@ -11,6 +11,10 @@ public class Hourglass {
                     System.out.print("8");
                 }
             }
+            if (height % 2 == 0 && row == height / 2) {
+                System.out.println();
+                continue;
+            }
             if (row <= height / 2) {
                 space++;
             } else {
